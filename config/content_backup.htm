@@ -332,13 +332,13 @@ function openByUrl(){
     var opt = getOptions();
     opt.SceneUrl = url;
     // 可以添加更多的 STL URL
-    https://s104.cycu.org/~41223110/1114.stl // 為每個 canvas 調用
+    readSTLfile(opt, 'cv1'); // 為每個 canvas 調用
     readSTLfile(opt, 'cv2'); // 第二個 canvas
 }
 
 function openByGet(){
     var urls = [
-        "https://s104.cycu.org/~pj2023/cad2024_part_ex1_solvespace.stl",
+        "https://s104.cycu.org/~41223110/1114.stl",
         "https://s104.cycu.org/~scrum1/41223199_part99.stl"
     ];
     var opt = getOptions();
